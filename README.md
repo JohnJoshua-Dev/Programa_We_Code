@@ -381,7 +381,7 @@ public class HelloWeCode {
 ### 💡 **Pronto para começar sua jornada Java com VS Code?**
 *"A melhor maneira de prever o futuro é criá-lo."* - Peter Drucker
 
-[**📚 Acessar Material da Semana 1**](./semana-1/) | [**🐛 Reportar Problema**](https://github.com/JohnJoshua-Dev/Programa_We_Code.git/issues)
+[**📚 Acessar Material da Semana 1**](./semana-1/) | [**🐛 Reportar Problema**](https://github.com/JohnJoshua-Dev/Programa_We_Code/issues)
 
 </div>
 
