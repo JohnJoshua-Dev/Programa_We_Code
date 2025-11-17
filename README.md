@@ -137,6 +137,7 @@ https://code.visualstudio.com/download
 # - GitLens
 # - Bootstrap 5 Quick Snippets
 # - Thunder Client (alternativa ao Postman)
+# - JDBC
 
 ```
 Configuração das Extensões no VS Code:
