@@ -1,7 +1,7 @@
 # Continuação a Logica de Programação e 
 ## Introdução a Web
-### Arrays, if else e Estruras de repetição
 
+### Arrays, if else e Estruras de repetição
 Estruras de Repetição:
 for -> Repete um numero de vezes conhecidos 
 Estrutura
