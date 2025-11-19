@@ -22,11 +22,15 @@ public static void main(String[] args) {
 
             media = (nota1 + nota2) / 2;
 
-            if (media>=10) {
-                situacaodoaluno = "aprovado";
+            if (media>=14) {
+                situacaodoaluno = "Dispensado";
+
             
-            } else {
-                situacaodoaluno = "reprovado";
+            } else if(media>=10) {
+                situacaodoaluno = "Adimitido";
+
+            } else{
+                situacaodoaluno="Reprovado";
             }
 
             System.out.println("O "+nome+" teve nota1 "+ nota1+" nota2 "+nota2+"\n A sua media e:" +media + "o aluno esta: "+ situacaodoaluno);

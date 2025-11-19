@@ -21,7 +21,7 @@ public class Aula2B {
 idade = anoatual - anodenascimento;
 
 
-            if (idade>=18)  {
+            if (idade>=18 & idade<=65)  {
                 situacaodapessoa = "pode votar";
             
             } else {
