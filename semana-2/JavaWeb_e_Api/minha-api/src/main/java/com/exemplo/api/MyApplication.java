@@ -5,7 +5,7 @@ import java.util.Set;
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
 
-@ApplicationPath("/api")
+@ApplicationPath("/")
 public class MyApplication extends Application {
     
     @Override
