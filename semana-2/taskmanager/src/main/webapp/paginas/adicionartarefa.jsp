@@ -25,27 +25,8 @@
                         </div>
                     </div>
                     <h2 class=""></h2>
-                    <nav>
-                        <ul class="nav justify-content-center flex-column">
-                            <li class="nav-item item">
-                                <a class="nav-link active" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="#">Ver Tarefas</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="#">Adicionar Tarefa</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="eliminartarefa.html">Eliminar Tarefas</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </nav>
-         
-                </div>
+                    <jsp:include page="menu.jsp" />
+</div>
                 <div class="col-md-10 ">
                     <div class="row">
                         <div class="col-md-12">

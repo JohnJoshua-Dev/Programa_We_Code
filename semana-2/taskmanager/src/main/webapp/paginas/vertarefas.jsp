@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,26 +27,7 @@
                         </div>
                     </div>
                     <h2 class=""></h2>
-                    <nav>
-                        <ul class="nav justify-content-center flex-column">
-                            <li class="nav-item item">
-                                <a class="nav-link active" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="#">Ver Tarefas</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="adicionartarefa.html">Adicionar Tarefa</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="#">Eliminar Tarefas</a>
-                            </li>
-                            <li class="nav-item item">
-                                <a class="nav-link" href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </nav>
-
+                    <jsp:include page="menu.jsp" />
                 </div>
                 <div class="col-md-10 ">
                     <div class="row">
@@ -70,7 +52,7 @@
                                                     <th scope="col">Tarefa</th>
                                                     <th scope="col">Descrição</th>
                                                     <th scope="col">Data de Vencimento</th>
-                                                    <th scope="col">Ações</th>
+                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -79,21 +61,21 @@
                                                     <td>Comprar mantimentos</td>
                                                     <td>Comprar frutas, vegetais e pão</td>
                                                     <td>2024-07-01</td>
-                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button></td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
                                                     <td>Reunião com a equipe</td>
                                                     <td>Discutir o progresso do projeto</td>
                                                     <td>2024-07-02</td>
-                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button></td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
                                                     <td>Exercício físico</td>
                                                     <td>Ir à academia para um treino de 1 hora</td>
                                                     <td>2024-07-01</td>
-                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button></td>
+                                                    
                                                 </tr>
                                             </tbody>
                                         </table>
