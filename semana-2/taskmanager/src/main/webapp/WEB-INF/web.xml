@@ -5,5 +5,13 @@
          version="5.0">
 
 
+    <!-- <servlet>
+        <servlet-name>primeiraServlet</servlet-name>
+        <servlet-class>wecode.HelloServlet</servlet-class>
+    </servlet>
+         <servlet-mapping>
+            <servlet-name>primeiraServlet</servlet-name>
+            <url-pattern>/hello</url-pattern>
+         </servlet-mapping> -->
 
 </web-app>

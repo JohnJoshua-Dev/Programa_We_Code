@@ -61,21 +61,24 @@
                                                     <td>Comprar mantimentos</td>
                                                     <td>Comprar frutas, vegetais e pão</td>
                                                     <td>2024-07-01</td>
-                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button></td>
+                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button>
+                                                    <button class="btn btn-warning btn-sm">Editar</button></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
                                                     <td>Reunião com a equipe</td>
                                                     <td>Discutir o progresso do projeto</td>
                                                     <td>2024-07-02</td>
-                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button></td>
+                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button>
+                                                    <button class="btn btn-warning btn-sm">Editar</button></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
                                                     <td>Exercício físico</td>
                                                     <td>Ir à academia para um treino de 1 hora</td>
                                                     <td>2024-07-01</td>
-                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button></td>
+                                                    <td><button class="btn btn-danger btn-sm">Eliminar</button>
+                                                    <button class="btn btn-warning btn-sm">Editar</button></td>
                                                 </tr>
                                             </tbody>
                                         </table>

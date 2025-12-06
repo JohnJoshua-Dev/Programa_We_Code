@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,14 +46,14 @@
                                         <div class="cardTask">
                                         <h3 class="text-center titlecard">Adicionar Tarefa</h3>
 
-                                        <form class="">
+                                        <form class="" action="${pageContext.request.contextPath}/hello" method="POST">
                                             <div class="mb-3">
                                                 <label for="tarefa" class="form-label"></label>
-                                                <input type="text" class="form-control" id="tarefa" placeholder="Digite a tarefa">
+                                                <input type="text" name="tarefa" class="form-control" id="tarefa" placeholder="Digite a tarefa">
                                             </div>
                                             <div class="mb-3">
                                                 <label for="descricao" class="form-label"></label>
-                                                <textarea class="form-control" id="descricao" rows="3" placeholder="Digite a descrição da tarefa"></textarea>
+                                                <textarea class="form-control" name="descricao" id="descricao" rows="3" placeholder="Digite a descrição da tarefa"></textarea>
                                             </div>
                                             <button type="submit" class="btn btn-primary">Adicionar</button>
                                         </form>
