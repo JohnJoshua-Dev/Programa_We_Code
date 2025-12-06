@@ -21,7 +21,7 @@
     <dependencies>
 
 
-        <!-- Jakarta Servlet 6.0 -->
+        <!-- Jakarta Servlet 5.0 -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
@@ -35,6 +35,7 @@
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>3.0.0</version>
         </dependency>
+    
     </dependencies>
 
     <build>
@@ -49,8 +50,8 @@
                 <configuration>
                     <webApp>
                         <contextPath>/taskmanager</contextPath>
+                        <!-- <port>8080</port> -->
                     </webApp>
-
                 </configuration>
             </plugin>
         </plugins>
